@@ -1,0 +1,363 @@
+html, body,.container1,.lesson-wrapper {
+  margin: 0; padding: 0;
+  background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
+  box-sizing: border-box;
+  -webkit-animation: slide 15s linear infinite;
+}
+
+
+.to-know h1,h2,h3{
+  color:#292c2f;
+  font-size: 36px;
+  font-weight:400;
+  letter-spacing: 2px;
+  line-height: 20px;
+  padding-top: 25px;
+  margin-left: : 10px;
+  padding-bottom: 8px;
+}
+.to-know{
+  padding-left: 25px;
+}
+
+.to-know p,li{
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+    padding-bottom: 5px;
+
+}
+.to-know span{
+  font-weight: bold;
+  color:#000000;
+
+}
+.to-know a{
+  color:blue;
+  font-weight:400;
+}
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}
+body {
+  margin: 0;
+  font-family: "Arial";
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color:	#292c2f;
+  position: fixed;
+  top:0;
+  z-index:10;
+}
+
+.conatiner1{
+  height: 100%;
+  width: 100%;
+  margin: 0 ;
+  padding: 0;
+  background-image: url(https://www.itonlinelearning.com/wp-content/uploads/2018/06/Which-programming-langauge-should-i-learn-first-ITonlinelearning.jpg);
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  transition: background-image 1s ease-in-out;
+  background-size: 100% 100%;
+
+}
+.conatiner1:hover{
+  background-image: url(https://enjoylife.com.ar/novedades/wp-content/uploads/2018/12/Desarrollador-750x398.jpg);
+}
+
+.top-wrapper{
+  padding: 180px 0 100px 0;
+
+  color: #fff;
+  text-align: center;
+}
+.top-wrapper h1{
+ opacity: 0.97;
+ font-size: 53px;
+ font-weight:bold;
+ letter-spacing:4px;
+ margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  font-size: 18px;
+  font-weight: 300;
+  opacity: 0.9;
+  margin-bottom:4px;
+}
+.header-left {
+  float: left;
+}
+.header-left a{
+  line-height: 50px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #fff;
+}
+.header-left span{
+  color: red;
+  padding-left: 5px;
+
+}
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+.dropbtn {
+  background-color:#292c2f ;
+  color: white;
+  padding: 16px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color:rgba(255, 255, 255, 0.5) ;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #292c2f;
+  min-width: 180px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
+.header-right a {
+  line-height: 50px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+.lesson-wrapper {
+  height: 700px;
+  padding-bottom: 80px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+.lessons{
+  float: left;
+}
+.lesson-icon {
+  position: relative;
+
+}
+.lesson-icon img{
+  height:25%;
+  width: 25%;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  width: 100%;
+  padding-left: 40%;
+  background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
+  box-sizing: border-box;
+  -webkit-animation: slide 15s linear infinite;
+}
+
+.message {
+  padding: 15px 40px;
+  cursor: pointer;
+  padding-left:0%;
+  position: relative;
+}
+.context {
+  height: 40px;
+  width: 300px;
+  padding-left:%;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  border-radius: 20px;
+}
+.context a{
+  margin-top: 5px;
+  font-size: 24px;
+  font-weight:300;
+  color: #fff;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+section {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a  {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right img {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
+.footer-left h4{
+  color:#fff;
+}
+/* Footer links */
